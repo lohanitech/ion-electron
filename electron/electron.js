@@ -17,15 +17,13 @@ function createWindow() {
         height: 600
     });
 
-    var url = 'file://' + __dirname + '/../www/index.html';
-    var Args = process.argv.slice(2);
-    Args.forEach(function (val) {
-        if (val === "test") {
-            url = 'http://localhost:8100'
-        }
-    });
+    var url = process.env.E_URL || url.format({
+            pathname: path.join(__dirname, '/../www/index.html'),
+            protocol: 'file:',
+            slashes: true
+        });
 
-    // and load the index.html of the app.
+        // and load the index.html of the app.
     win.loadURL(url);
 
     // Open the DevTools.
