@@ -7,8 +7,7 @@ Clone this repository
 `npm install`
 
 ### For developing
-run `ionic serve` in one terminal
-run `npm run electron test` in another terminal.
+run `npm run dev` in another terminal.
 
 ### Building
 run `npm run ebuild` to run electron-builder. See [electron-builder](https://github.com/electron-userland/electron-builder) for details
