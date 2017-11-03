@@ -1,15 +1,26 @@
-# Ionic 2 Electron Starter Pack
-This is a starter for developing desktop applications using Ionic 2 and Electron.
-Fork me and build great desktop applications.
+This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## Development
-Clone this repository
-`npm install`
+## How to use this template
 
-### For developing
-run `npm run dev` in another terminal.
+*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-### Building
-run `npm run ebuild` to run electron-builder. See [electron-builder](https://github.com/electron-userland/electron-builder) for details
+To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-By [Lohani Tech](https://lohanitech.com)
+### With the Ionic CLI:
+
+Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+
+```bash
+$ sudo npm install -g ionic cordova
+$ ionic start mySideMenu sidemenu
+```
+
+Then, to run it, cd into `mySideMenu` and run:
+
+```bash
+$ ionic cordova platform add ios
+$ ionic cordova run ios
+```
+
+Substitute ios for android if not on a Mac.
+

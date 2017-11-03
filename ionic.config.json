@@ -1,6 +1,5 @@
 {
-  "name": "ionic2-electron-test",
+  "name": "ion-electron-1",
   "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "type": "ionic-angular"
 }

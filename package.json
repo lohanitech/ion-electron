@@ -1,13 +1,14 @@
 {
-  "name": "ionic2-electron-starter",
+  "name": "ion-electron-1",
+  "version": "0.0.1",
   "author": {
     "name": "Damodar Lohani",
-    "email": "dlohani48@gmail.com",
+    "email": "example@example.com",
     "url": "https://lohanitech.com/members/damodar-lohani"
   },
-  "homepage": "http://github.com/lohanitech/ionic2-electron-starter/",
+  "description": "ionic 2 based electron project",
+  "homepage": "http://ionicframework.com/",
   "private": true,
-  "version": "1.0.0",
   "scripts": {
     "dev": "nf start",
     "start": "ionic-app-scripts serve",
